@@ -17,7 +17,7 @@ local function Case()
 	end
 end
 local Module = {}
-function Module:Generate()
+Module.Gen = function()
 	return Case()..Case()..Case()..Case()..Case()..Case()..Case()..Case()..Case()..Case()..Case()..Case()
 end
 return Module
